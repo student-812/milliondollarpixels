@@ -1,0 +1,19 @@
+.cell {
+    padding: 0;
+    height: 9px;
+    width: 9px;
+    background: linear-gradient( #bbb, transparent 1px), linear-gradient( 90deg, #bbb, transparent 1px);
+	background-size: 10px 10px;
+    position: center;
+}
+
+.cell:hover {
+        shadow:0 0 15px #00aaff;
+        border:1px solid #00aaff;
+}
+.tooltip {
+    background:transparent url(https://dl.dropboxusercontent.com/u/25819920/tooltip/black_arrow.png);
+    padding:25px;
+    color:#fff;
+    padding: 0;
+}

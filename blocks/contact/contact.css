@@ -1,0 +1,18 @@
+.contact {
+    display: flex;
+    height: 39px;
+    justify-content: space-around;
+    justify-self: center;
+    padding-bottom: 25px;
+}
+
+@media screen and (min-width: 768px) {
+    .contact {
+        height: 25px;
+    }
+    }
+
+.logo-telegram {
+    height: 12px;
+    width: 12px;
+}

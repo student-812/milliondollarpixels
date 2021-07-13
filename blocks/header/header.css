@@ -1,0 +1,24 @@
+.header {
+  display: flex;
+  justify-content: space-between;
+  height: 170px;
+  width: 100%;
+  min-height: 106px;
+  position: relative;
+  color: #FFFFFF;
+  margin: auto;
+}
+
+@media screen and (min-width: 768px) {
+  .header {
+    height: 130px;
+    min-height: 128px;
+  }
+}
+
+@media screen and (min-width: 1024px) {
+  .header {
+    height:auto;
+    width: 1024px;
+  }
+}

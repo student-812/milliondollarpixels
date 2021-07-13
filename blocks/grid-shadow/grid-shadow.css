@@ -1,0 +1,51 @@
+.grid-shadow {
+  background: linear-gradient( #bbb, transparent 1px), linear-gradient( 90deg, #bbb, transparent 1px);
+	background-size: 10px 10px;
+  position: center;
+  display: grid;
+   grid-template-columns: repeat(25, 10px);
+   grid-template-rows: repeat(400, 10px);
+  height: 4001px;
+  width: 251px;
+  justify-content: center;
+  justify-self: center;
+  justify-items: center; 
+  margin: 0 auto;
+}
+
+@media screen and (min-width: 508px) {
+  .grid-shadow {
+  display: grid;
+  grid-template-columns: repeat(50, 10px);
+  grid-template-rows: repeat(200, 10px);
+ height: 2001px;
+ width: 501px;
+  }
+}
+@media screen and (min-width: 798px) {
+    .grid-shadow {
+      grid-template-columns: repeat(80, 10px);
+      grid-template-rows: repeat(125, 10px);
+     height: 1251px;
+     width:801px;
+    }
+  }
+  
+  @media screen and (min-width: 1024px) {
+    .grid-shadow{
+   grid-template-columns: repeat(100, 10px);
+   grid-template-rows: repeat(100, 10px);
+  height: 1001px;
+  width:1001px;
+
+    }
+  }
+  
+  @media screen and (min-width: 1280px){
+    .grid-shadow {
+   grid-template-columns: repeat(100, 10px);
+   grid-template-rows: repeat(100, 10px);
+  height: 1002px;
+  width:1001px;
+    }
+  }
