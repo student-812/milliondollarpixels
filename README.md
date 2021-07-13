@@ -10,10 +10,10 @@
 
 Проект по продаже пикселей
 
-<!-- ## GitHub Pages
+## GitHub Pages
 
-- [Ссылка на GitHub Pages](https://student-812.github.io/russian-travel/)
-- https://student-812.github.io/russian-travel/ -->
+- [Ссылка на GitHub Pages](https://student-812.github.io/milliondollarpixels/)
+- https://student-812.github.io/milliondollarpixels/
 
 ## Примененные технологии
 
