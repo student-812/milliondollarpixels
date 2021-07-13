@@ -1,7 +1,8 @@
 .header {
   display: flex;
+  flex-direction: column;
   justify-content: space-between;
-  height: 170px;
+  height: 160px;
   width: 100%;
   min-height: 106px;
   position: relative;
@@ -11,14 +12,18 @@
 
 @media screen and (min-width: 768px) {
   .header {
+    display: flex;
+    justify-self: start;
+    align-items: center;
     height: 130px;
     min-height: 128px;
+    padding-bottom: 48px;
   }
 }
 
 @media screen and (min-width: 1024px) {
   .header {
-    height:auto;
+    justify-content: space-between;
     width: 1024px;
   }
 }

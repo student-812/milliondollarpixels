@@ -1,14 +1,16 @@
 .logo {
   display: flex; 
-  width: 150px;
-  height: 75px;
+  width: 250px;
+  height: 55px;
   position: relative;
   top: 16px;
   left: 1px;
   color: #ffd700;
-  font-size: 27px;
+  font-size: 26px;
   justify-self: start;
   text-shadow: 0 0 10px #ff0000;
+  margin: auto;
+  text-align: center;
 }
 .logo:before {
     content: attr(data-text);
@@ -26,17 +28,17 @@
 
 @media screen and (min-width:768px) {
   .logo {
-    width: 210px;
+    width: 380px;
     height: 100px;
-    top: 20px;
-    left: 16px;
+    margin: auto;
+    top: 60px;
+    font-size: 27px;
   }
 }
 
 @media screen and (min-width:1024px) {
   .logo {
     top: 40px;
-    left: 10px;
-    width: 210px;
+    /* width: 210px; */
   }
 }
